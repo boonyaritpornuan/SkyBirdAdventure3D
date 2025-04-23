@@ -1,0 +1,30 @@
+<svg width="40" height="80" viewBox="0 0 40 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main feather shape -->
+  <path d="M20 5C15 20 5 35 5 50C5 65 15 75 20 75C25 75 35 65 35 50C35 35 25 20 20 5Z" fill="url(#feather-gradient)" />
+  
+  <!-- Feather stem -->
+  <path d="M20 5C20 20 20 35 20 75" stroke="#FFAA00" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Feather details -->
+  <path d="M20 15C15 15 10 20 10 25" stroke="#FFAA00" stroke-width="1" stroke-linecap="round" />
+  <path d="M20 25C15 25 10 30 10 35" stroke="#FFAA00" stroke-width="1" stroke-linecap="round" />
+  <path d="M20 35C15 35 10 40 10 45" stroke="#FFAA00" stroke-width="1" stroke-linecap="round" />
+  <path d="M20 45C15 45 10 50 10 55" stroke="#FFAA00" stroke-width="1" stroke-linecap="round" />
+  
+  <path d="M20 15C25 15 30 20 30 25" stroke="#FFAA00" stroke-width="1" stroke-linecap="round" />
+  <path d="M20 25C25 25 30 30 30 35" stroke="#FFAA00" stroke-width="1" stroke-linecap="round" />
+  <path d="M20 35C25 35 30 40 30 45" stroke="#FFAA00" stroke-width="1" stroke-linecap="round" />
+  <path d="M20 45C25 45 30 50 30 55" stroke="#FFAA00" stroke-width="1" stroke-linecap="round" />
+  
+  <!-- Shine effect -->
+  <path d="M15 10C20 15 25 10 30 15" stroke="white" stroke-width="1" stroke-linecap="round" opacity="0.5" />
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="feather-gradient" x1="20" y1="5" x2="20" y2="75" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" />
+      <stop offset="0.3" stop-color="#FFFFAA" />
+      <stop offset="1" stop-color="#FFDD00" />
+    </linearGradient>
+  </defs>
+</svg>

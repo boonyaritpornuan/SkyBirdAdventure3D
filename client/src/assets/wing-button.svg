@@ -1,0 +1,23 @@
+<svg width="150" height="60" viewBox="0 0 150 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wing shape -->
+  <path d="M10 30C20 10 50 5 80 10C110 15 130 25 140 40C130 45 110 50 80 45C50 40 20 45 10 30Z" fill="url(#wing-gradient)">
+    <animate attributeName="d" values="M10 30C20 10 50 5 80 10C110 15 130 25 140 40C130 45 110 50 80 45C50 40 20 45 10 30Z;M10 35C20 15 50 15 80 20C110 25 130 35 140 45C130 50 110 55 80 50C50 45 20 50 10 35Z;M10 30C20 10 50 5 80 10C110 15 130 25 140 40C130 45 110 50 80 45C50 40 20 45 10 30Z" dur="2s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Feather details -->
+  <path d="M30 25C40 20 50 20 60 25" stroke="#FFAA00" stroke-width="2" stroke-linecap="round" />
+  <path d="M50 20C60 18 70 18 80 20" stroke="#FFAA00" stroke-width="2" stroke-linecap="round" />
+  <path d="M70 15C80 14 90 14 100 16" stroke="#FFAA00" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Text -->
+  <text x="75" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="16">PLAY</text>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="wing-gradient" x1="10" y1="30" x2="140" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFDD00" />
+      <stop offset="0.5" stop-color="#FFAA00" />
+      <stop offset="1" stop-color="#FF8800" />
+    </linearGradient>
+  </defs>
+</svg>

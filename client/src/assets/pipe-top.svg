@@ -1,0 +1,13 @@
+<svg width="80" height="400" viewBox="0 0 80 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main pipe -->
+  <rect x="10" y="0" width="60" height="350" fill="#19A037" />
+  
+  <!-- Pipe highlights -->
+  <rect x="15" y="0" width="5" height="350" fill="#1EC747" />
+  <rect x="60" y="0" width="5" height="350" fill="#0F8027" />
+  
+  <!-- Pipe cap -->
+  <rect x="0" y="350" width="80" height="30" fill="#19A037" />
+  <rect x="0" y="380" width="80" height="10" fill="#137C2B" />
+  <rect x="5" y="355" width="70" height="20" fill="#1EC747" />
+</svg>

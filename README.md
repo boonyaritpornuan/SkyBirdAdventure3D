@@ -1,27 +1,112 @@
-# Propy Bird
-## คำอธิบาย
-Propy Bird เป็นเกมแนวผจญภัยที่ให้ผู้เล่นควบคุมนกและต้องบินผ่านช่องในท่อหลบหลีกอุปสรรค โดยจะเปลี่ยนธีมจากงูในป่าเป็นการผจญภัยในท้องฟ้า
-## คุณสมบัติ
-- **การควบคุม**: ผู้เล่นสามารถบีบปีกของนกเพื่อให้มันบินขึ้น ด้วยการกดปุ่ม Space, W หรือ ลูกศรขึ้น
-- **กราฟิก**: มีพื้นหลังที่แสดงท้องฟ้าสี Gradient และอนิเมชันเมฆลอย
-- **เสียง**: เสียงแบ็คกราวด์และเอฟเฟคเสียงเมื่อเปลี่ยนอุปสรรค
-- **การเก็บคะแนน**: สูงสุด +1 คะแนนต่อการหลบหลีกท่อ
-## การติดตั้ง
-1. คลิก clone โค้ดจาก GitHub/Repository ของคุณ:
-   ```bash
-   git clone <repository-url>
-ไปที่โฟลเดอร์ของโปรเจกต์:
-cd ชื่อโฟลเดอร์
-ติดตั้ง dependencies ที่จำเป็น:
+# Sky Bird Adventure 3D
+
+Sky Bird Adventure 3D is an immersive 3D game where players control a bird navigating through beautiful sky landscapes, avoiding obstacles and collecting rewards.
+
+## Features
+
+- Smooth 3D flight controls with intuitive mechanics
+- Beautifully rendered sky environments
+- Progressively challenging obstacle courses
+- Reward collection system with scoring
+- Responsive design that works on both desktop and mobile devices
+- Engaging sound effects and background music
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16.0.0 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/SkyBirdAdventure3D.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd SkyBirdAdventure3D
+```
+
+3. Install dependencies:
+```bash
 npm install
-วิธีการเล่น
-ใช้ปุ่ม Space, W, หรือ ลูกศรขึ้น เพื่อให้ปีกนกบินขึ้น
-หลีกเลี่ยงการชนท่อและขอบหน้าจอเพื่อไม่ให้เกมจบ
-การใช้งาน
-ในการรันเกมให้ใช้คำสั่งต่อไปนี้:
+# or
+yarn install
+```
 
+4. Start the development server:
+```bash
 npm run dev
-และเปิดหน้าเบราว์เซอร์ไปที่ http://0.0.0.0:5000
+# or
+yarn dev
+```
 
-ติดต่อ
-สำหรับคำถามหรือข้อเสนอแนะ กรุณาติดต่อที่ boonyarit300931@gmail.com
+5. Open your browser and navigate to `http://localhost:3000` to see the game in action!
+
+## Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+The build files will be located in the `dist/public` directory.
+
+## Technologies Used
+
+- **React** - UI framework
+- **Three.js** - 3D rendering library
+- **React Three Fiber** - React renderer for Three.js
+- **Tailwind CSS** - Utility-first CSS framework
+- **Vite** - Build tool and development server
+- **TypeScript** - Type-safe JavaScript
+- **GSAP** - Animation library
+- **Howler.js** - Audio library
+
+## Game Controls
+
+- **Desktop**: Use arrow keys or WASD to control the bird. Space to flap/jump.
+- **Mobile**: Tap the screen to flap/jump. Tilt device to control direction (if supported).
+
+## Customization
+
+You can customize various aspects of the game by modifying the configuration files:
+
+- `src/config/game-config.ts` - Game difficulty, speed, and mechanics
+- `src/config/visual-config.ts` - Visual settings and effects
+- `src/config/audio-config.ts` - Sound settings
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
+
+## Credits
+
+- Developed by Boonyarit Pornuan
+- 3D Models: [List sources or mention if created by you]
+- Textures: [List sources or mention if created by you]
+- Audio: [List sources or mention if created by you]
+
+## Support
+
+For questions, issues, or feature requests, please open an issue on the GitHub repository or contact [your-email@example.com].
+
+---
+
+Thank you for purchasing Sky Bird Adventure 3D! We hope you enjoy using it as much as we enjoyed creating it.
+
+## CodeCanyon Information
+
+This game is available for purchase on CodeCanyon. When purchasing, you receive:
+
+- Full source code with comprehensive documentation
+- Regular updates and improvements
+- Dedicated support for setup and customization
+- Commercial license for one project
+

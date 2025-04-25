@@ -27,4 +27,11 @@ export default defineConfig({
   },
   // Add support for large models and audio files
   assetsInclude: ["**/*.gltf", "**/*.glb", "**/*.mp3", "**/*.ogg", "**/*.wav"],
+  server: {
+  port: 3000
+},
+preview: {
+  port: 3000
+},
+base: './' // เพิ่มบรรทัดนี้เพื่อให้ path เป็น relative
 });

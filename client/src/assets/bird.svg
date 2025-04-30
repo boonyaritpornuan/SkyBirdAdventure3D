@@ -1,20 +1,35 @@
 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
   <!-- Body -->
+  <path d="M50 60C40 80 60 80 50 60Z" fill="#FFDD00" />
   <ellipse cx="50" cy="50" rx="25" ry="20" fill="#FFDD00" />
   
+  <!-- Tail -->
+  <path d="M50 70 L40 75 L50 80 L60 75 Z" fill="#FFAA00" />
+  
   <!-- Wings -->
-  <path id="wing-left" d="M30 50C20 45 15 55 25 60C35 65 40 55 30 50Z" fill="#FFAA00">
-    <animate attributeName="d" values="M30 50C20 45 15 55 25 60C35 65 40 55 30 50Z;M30 50C15 40 10 55 25 60C40 65 45 60 30 50Z;M30 50C20 45 15 55 25 60C35 65 40 55 30 50Z" dur="0.6s" repeatCount="indefinite" />
+  <path id="wing-left" d="M30 50C15 40 10 55 25 60L35 55C25 50 20 60 30 50Z" fill="#FFAA00">
+    <animate attributeName="d" dur="0.6s" repeatCount="indefinite" values="
+      M30 50C15 40 10 55 25 60L35 55C25 50 20 60 30 50Z;
+      M30 45C10 35 5 50 25 60L40 50C25 45 15 55 30 45Z;
+      M30 50C15 40 10 55 25 60L35 55C25 50 20 60 30 50Z"/>
   </path>
   
-  <path id="wing-right" d="M70 50C80 45 85 55 75 60C65 65 60 55 70 50Z" fill="#FFAA00">
-    <animate attributeName="d" values="M70 50C80 45 85 55 75 60C65 65 60 55 70 50Z;M70 50C85 40 90 55 75 60C60 65 55 60 70 50Z;M70 50C80 45 85 55 75 60C65 65 60 55 70 50Z" dur="0.6s" repeatCount="indefinite" />
+  <path id="wing-right" d="M70 50C85 40 90 55 75 60L65 55C75 50 80 60 70 50Z" fill="#FFAA00">
+    <animate attributeName="d" dur="0.6s" repeatCount="indefinite" values="
+      M70 50C85 40 90 55 75 60L65 55C75 50 80 60 70 50Z;
+      M70 45C90 35 95 50 75 60L60 50C75 45 85 55 70 45Z;
+      M70 50C85 40 90 55 75 60L65 55C75 50 80 60 70 50Z"/>
   </path>
+
+  <!-- Head & Beak -->
+  <circle cx="60" cy="40" r="15" fill="#FFDD00" />
+  <polygon points="75,45 85,40 85,50" fill="#FF6B00" />
   
-  <!-- Beak -->
-  <polygon points="80,50 90,45 90,55" fill="#FF6B00" />
+  <!-- Eye Details -->
+  <circle cx="70" cy="40" r="5" fill="white" />
+  <circle cx="72" cy="40" r="2" fill="black" />
+  <circle cx="71" cy="39" r="1" fill="white" />
   
-  <!-- Eye -->
-  <circle cx="70" cy="45" r="5" fill="white" />
-  <circle cx="72" cy="45" r="2" fill="black" />
+  <!-- Eyebrow -->
+  <path d="M65 35 Q70 32 75 35" stroke="black" fill="none" stroke-width="0.8"/>
 </svg>

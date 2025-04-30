@@ -30,9 +30,6 @@ Licensed under the MIT License.
 Copyright (c) 2019-2025 Poimandres
 Licensed under the MIT License.
 
-### GSAP (GreenSock Animation Platform)
-IMPORTANT: GSAP is subject to GreenSock's standard license terms. Free for personal projects and some commercial projects. For commercial use that falls outside the standard terms, a license must be purchased from GreenSock (https://greensock.com/licensing/).
-
 ### TailwindCSS
 Copyright (c) Tailwind Labs, Inc.
 Licensed under the MIT License.
@@ -63,7 +60,7 @@ All other NPM packages used in this project are listed in the package.json file 
 
 ## Note on Commercial Usage
 
-This license file covers the codebase and specifically mentioned assets. If you intend to use this project commercially, ensure that all components (especially GSAP and any media assets) have appropriate licenses for commercial use.
+This license file covers the codebase and specifically mentioned assets. If you intend to use this project commercially, ensure that all components have appropriate licenses for commercial use.
 
 ## Trademark Disclaimer
 

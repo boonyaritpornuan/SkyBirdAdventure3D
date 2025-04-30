@@ -66,7 +66,6 @@ The build files will be located in the `dist/public` directory.
 - **Tailwind CSS** - Utility-first CSS framework
 - **Vite** - Build tool and development server
 - **TypeScript** - Type-safe JavaScript
-- **GSAP** - Animation library
 - **Howler.js** - Audio library
 
 ## Game Controls

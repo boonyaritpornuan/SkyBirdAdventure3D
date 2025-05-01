@@ -46,13 +46,13 @@ All other NPM packages used in this project are listed in the package.json file 
 [IMPORTANT: Please add information about all media assets (models, textures, sounds, music, images) used in your project here. For each asset, specify its source, creator, and the license under which it is used.]
 
 ### 3D Models
-[List all 3D models and their licenses]
+- Generated using DeepSeek under the MIT License.
 
 ### Textures and Images
-[List all textures/images and their licenses]
+- Generated using DALL-E under https://openai.com/policies/. 
 
 ### Audio
-[List all audio files and their licenses]
+- Generated using AudioCraft under the MIT License.
 
 ### Fonts
 - Inter Font: Licensed under the SIL Open Font License

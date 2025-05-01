@@ -32,13 +32,12 @@ export const useControls = () => {
     if (phase === "ready") {
       start(); // เริ่มเกม
     }
-  };
     
     // If playing, make the bird flap
     if (phase === "playing") {
       flap();
       playHit(); // Play flap sound
-    
+    }
   };
   
   const handleInput = () => {

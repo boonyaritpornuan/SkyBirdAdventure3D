@@ -29,10 +29,10 @@ export const useControls = () => {
   }, [phase]);
   
   const handleFlap = () => {
-    // If in the ready phase, start the game
     if (phase === "ready") {
-      start();
+      start(); // เริ่มเกม
     }
+  };
     
     // If playing, make the bird flap
     if (phase === "playing") {

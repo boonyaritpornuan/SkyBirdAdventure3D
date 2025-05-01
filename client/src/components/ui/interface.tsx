@@ -19,7 +19,7 @@ export function Interface() {
         const event = new KeyboardEvent("keydown", { code: "Space" });
         window.dispatchEvent(event);
       };
-
+  
       window.addEventListener("click", handleClick);
       return () => window.removeEventListener("click", handleClick);
     }

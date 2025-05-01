@@ -181,16 +181,15 @@ const GameUI = () => {
         <div 
           className="absolute inset-0 pointer-events-auto cursor-pointer"
           onClick={(e) => {
-            // Direct call to flap for immediate response
             const { flap } = useBird.getState();
             const { playHit } = useAudio.getState();
-            
-            flap();
-            playHit();
-            console.log("Direct flap from UI click");
-          }}
-        />
-      )}
+      
+           flap();
+           playHit();
+        console.log("Direct flap from UI click");
+    }}
+  />
+)}
       
       {/* Game Over animation added via CSS */}
     </div>

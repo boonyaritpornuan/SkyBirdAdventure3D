@@ -47,13 +47,17 @@ All other NPM packages used in this project are listed in the package.json file 
 
 ### 3D Models
 - Generated using DeepSeek under the MIT License.
+- Seagull Model: [Poly Haven](https://polyhaven.com/a/seagull) (CC0)
+- Obstacles: [Kenney Game Assets](https://kenney.nl/assets) (CC0)
 
 ### Textures and Images
-- Generated using DALL-E under https://openai.com/policies/. 
+- Generated using DALL-E under https://openai.com/policies/. (Free Commercial Use)
+
 
 ### Audio
 - Generated using AudioCraft under the MIT License.
-
+- Background Music: "Happy Adventure" by Kenney (CC0)
+- Hit Sound: [Zapsplat](https://www.zapsplat.com) (Free Commercial Use)
 ### Fonts
 - Inter Font: Licensed under the SIL Open Font License
 - Press Start 2P: Licensed under the SIL Open Font License

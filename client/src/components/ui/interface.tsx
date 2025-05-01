@@ -82,11 +82,10 @@ export function Interface() {
           <CardContent className="p-4">
             <h3 className="font-medium mb-2">Controls:</h3>
             <ul className="text-sm space-y-1 text-muted-foreground">
-              <li>WASD or Arrow Keys: Move the ball</li>
-              <li>Space: Jump</li>
-              <li>R: Restart game</li>
-              <li>M: Toggle sound</li>
-            </ul>
+            <li>Space or Click: Flap wings</li>
+            <li>R or Restart button: Restart game</li>
+            <li>M or Mute button: Toggle sound</li>
+          </ul>
           </CardContent>
         </Card>
       </div>

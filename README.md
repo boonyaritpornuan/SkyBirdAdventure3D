@@ -88,9 +88,12 @@ This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.t
 ## Credits
 
 - Developed by Boonyarit Pornuan
-- 3D Models: [List sources or mention if created by you]
-- Textures: [List sources or mention if created by you]
-- Audio: [List sources or mention if created by you]
+- 3D Models:    - Seagull Model: [Poly Haven](https://polyhaven.com/a/seagull) (CC0)
+                - Obstacles: [Kenney Game Assets](https://kenney.nl/assets) (CC0)
+- Textures:     - Generated using DALL-E under https://openai.com/policies/. (Free Commercial Use)
+- Audio:        - Generated using AudioCraft under the MIT License.
+                - Background Music: "Happy Adventure" by Kenney (CC0)
+                - Hit Sound: [Zapsplat](https://www.zapsplat.com) (Free Commercial Use)
 
 ## Support
 

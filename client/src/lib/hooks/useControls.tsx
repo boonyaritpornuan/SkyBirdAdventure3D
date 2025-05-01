@@ -38,7 +38,7 @@ export const useControls = () => {
     if (phase === "playing") {
       flap();
       playHit(); // Play flap sound
-    }
+    
   };
   
   const handleInput = () => {

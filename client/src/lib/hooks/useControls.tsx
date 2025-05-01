@@ -10,7 +10,7 @@ export const useControls = () => {
   const { flap } = useBird();
   const { phase, start } = useGame();
   const { playHit } = useAudio();
-  
+
   // Subscribe to keyboard input only - we handle touch separately in GameUI
   useEffect(() => {
     // Subscribe to the flap control (keyboard)
@@ -22,28 +22,25 @@ export const useControls = () => {
         }
       }
     );
-    
+
     return () => {
       unsubscribeFlap();
     };
   }, [phase]);
-  
+
   const handleFlap = () => {
     if (phase === "ready") {
-      start(); // เริ่มเกม
-    }
-    
-    // If playing, make the bird flap
-    if (phase === "playing") {
+      start(); // Start the game
+    } else if (phase === "playing") {
       flap();
       playHit(); // Play flap sound
     }
   };
-  
+
   const handleInput = () => {
     // This is called from the game loop
     // We don't need to do anything here because we're using subscriptions
   };
-  
+
   return { handleInput, handleFlap };
 };

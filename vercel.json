@@ -2,17 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "server/index.ts",
-      "use": "@vercel/node",
-      "config": {
-        "nodeVersion": "18.x"
-      }
+      "src": "Dockerfile",
+      "use": "@vercel/docker"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "server/index.ts"
+      "dest": "/"
     }
   ]
 }
